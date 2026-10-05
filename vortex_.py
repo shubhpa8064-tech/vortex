@@ -1,3 +1,4 @@
+
 import asyncio
 import os
 import subprocess
@@ -124,7 +125,7 @@ class VortexAI:
     def tell_joke(self):
         jokes = [
             "Why did the programmer go broke? Because he used up all his cache!",
-            "Why do Java developers wear glasses? Because they don’t see sharp.",
+            "Why do Java developers wear glasses? Because they don't see sharp.",
             "I told my computer I needed a break, and it said no problem — it would go to sleep."
         ]
         self.speak(random.choice(jokes))
